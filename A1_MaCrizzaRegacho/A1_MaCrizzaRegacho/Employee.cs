@@ -16,16 +16,16 @@ namespace A1_MaCrizzaRegacho
         public string FirstName { get; }
         public string LastName { get; }
 
-        /// <summary>
-        /// Constructor that initializes only the EmployeeId
-        /// </summary>
-        /// <param name="employeeId">The ID of the Employee</param>
-        public Employee(int employeeId)
-        {
-            // Set the EmployeeId property
-            EmployeeID = employeeId;
+        ///// <summary>
+        ///// Constructor that initializes only the EmployeeId
+        ///// </summary>
+        ///// <param name="employeeId">The ID of the Employee</param>
+        //public Employee(int employeeId)
+        //{
+        //    // Set the EmployeeId property
+        //    EmployeeID = employeeId;
 
-        }
+        //}
 
         /// <summary>
         /// Constructor that initializes the EmployeeId, FirstName, and LastName
@@ -33,7 +33,7 @@ namespace A1_MaCrizzaRegacho
         /// <param name="employeeId">Employee ID</param>
         /// <param name="firstName">First Name</param>
         /// <param name="lastName">Last Name</param>
-        public Employee(int employeeId, string firstName, string lastName)
+        public Employee(int employeeId, string firstName = null, string lastName = null)
         {
             // Set the EmployeeId property
             EmployeeID = employeeId;

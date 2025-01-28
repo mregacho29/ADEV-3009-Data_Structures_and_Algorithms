@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\linkedlisttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\employeestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,35 +87,35 @@
               "Title": "LinkedList.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\LinkedList.cs",
-              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
-              "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedList.cs",
-              "ViewState": "AgIAAO8BAAAAAAAAAAAAAPUBAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs*",
+              "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedList.cs*",
+              "ViewState": "AgIAAOgBAAAAAAAAAAAWwPsBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T21:19:26.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Node.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\Node.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Node.cs",
               "RelativeToolTip": "A1_MaCrizzaRegacho\\Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T20:36:31.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Employee.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\Employee.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Employee.cs",
               "RelativeToolTip": "A1_MaCrizzaRegacho\\Employee.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T09:52:54.124Z",
               "EditorCaption": ""
@@ -130,8 +130,7 @@
               "RelativeToolTip": "A1_MaCrizzaRegacho\\NUnitTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:27:43.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:27:43.757Z"
             },
             {
               "$type": "Document",
@@ -143,8 +142,7 @@
               "RelativeToolTip": "A1_MaCrizzaRegacho\\NodeTest.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:27:39.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:27:39.846Z"
             },
             {
               "$type": "Document",
@@ -156,8 +154,7 @@
               "RelativeToolTip": "A1_MaCrizzaRegacho\\EmployeesTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:26:00.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:26:00.61Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "..\\..\\..\\Downloads\\Assignment1_Tests\\NUnitTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:23:55.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:23:55.658Z"
             }
           ]
         }

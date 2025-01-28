@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,9 +27,7 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         public LinkedList()
         {
-            Head = null;
-            Tail = null;
-            Size = 0;
+            Clear();
         }
 
         /// <summary>
@@ -46,8 +45,6 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         /// <returns>True if the list is empty, otherwise false</returns>
         public bool IsEmpty() => Size == 0;
-
-
 
 
         /// <summary>
@@ -85,11 +82,8 @@ namespace A1_MaCrizzaRegacho
             // Validate the element is not null
             ValidateElementNotNull(element);
 
-            // Check if the list is empty
-            ValidateListNotEmpty();
-
             // Store the old element from the Head node
-            T oldElement = Head.Element;
+            T oldElement = GetFirst();
 
             // Replace the Head node's element with the new element
             Head.Element = element;
@@ -127,33 +121,28 @@ namespace A1_MaCrizzaRegacho
         /// and assigning it the value of the incoming element parameter.
         /// </summary>
         /// <param name="element"></param>
-        public void AddFirst(T element)
+        public void AddFirst(T element) //=> AddNode(null, element, Head);
         {
 
             // Validate the element is not null
             ValidateElementNotNull(element);
 
             // Create a new node with the given element
-            Node<T> newHeadNode = new Node<T>(element);
+            Node<T> newHeadNode = new Node<T>(element, previousNode: null, nextNode: Head);
 
             if (IsEmpty())
             {
                 // If the list is empty, set the Head and Tail to the new node
-                Head = newHeadNode;
                 Tail = newHeadNode;
             }
             else
             {
-                // Set the new node's next to the current Head
-                newHeadNode.Next = Head;
-
                 // Set the current Head's previous to the new node
                 Head.Previous = newHeadNode;
-
-                // Update the Head to the new node
-                Head = newHeadNode;
             }
 
+            // Update the Head to the new node
+            Head = newHeadNode;
             // Increment the size of the list by 1
             Size++;
         }
@@ -266,10 +255,8 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         /// <param name="position"></param>
         /// <returns></returns>
-        public T Remove(int position)
+        public T Remove(int position) // => RemoveNode(GetNodeByPostion(position));
         {
-            // Validate the position
-            ValidatePosition(position);
 
             // Use the helper method to get the node at the specified position
             Node<T> nodeToRemove = GetNodeByPosition(position);
@@ -293,14 +280,11 @@ namespace A1_MaCrizzaRegacho
         /// <param name="element"></param>
         /// <param name="position"></param>
         /// <returns></returns>
-        public T Set(T element, int position)
+        public T Set(T element, int position) // => SetNode(GetNodeByPosition(position), element);
         {
 
             // Validate the element is not null
             ValidateElementNotNull(element);
-
-            // Validate the position
-            ValidatePosition(position);
 
             // Use the helper method to get the node at the specified position
             Node<T> nodeToSet = GetNodeByPosition(position);
@@ -325,9 +309,6 @@ namespace A1_MaCrizzaRegacho
             // Validate the element is not null
             ValidateElementNotNull(element);
 
-            // Validate the position
-            ValidatePosition(position);
-
             // Use the helper method to get the node at the specified position
             Node<T> nodeToAddAfter = GetNodeByPosition(position);
 
@@ -345,8 +326,8 @@ namespace A1_MaCrizzaRegacho
         /// <param name="position"></param>
         public void AddBefore(T element, int position)
         {
-            // Validate the position
-            ValidatePosition(position);
+            // Validate the element is not null
+            ValidateElementNotNull(element);
 
             // Use the helper method to get the node at the specified position
             Node<T> nodeToAddBefore = GetNodeByPosition(position);
@@ -373,20 +354,15 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         /// <param name="element"></param>
         /// <returns></returns>
-        public T Get(T element)
-        {
-            // Validate the element is not null
-            ValidateElementNotNull(element);
+        public T Get(T element) => GetNodeByElement(element).Element;
+        //{
 
-            // Use the helper method to get the node with the specified element
-            Node<T> node = GetNodeByElement(element);
+        //    // Use the helper method to get the node with the specified element
+        //    Node<T> node =
 
-            // Validate the node is not null
-            ValidateNodeNotNull(node);
-
-            // Return the element contained in the node
-            return node.Element;
-        }
+        //    // Return the element contained in the node
+        //    return node.Element;
+        //}
 
         /// <summary>
         /// Adds a new node after the first node found with the specified oldElement value.
@@ -397,9 +373,6 @@ namespace A1_MaCrizzaRegacho
         {
             // Validate the element is not null
             ValidateElementNotNull(element);
-
-            // Validate the oldElement is not null
-            ValidateOldElementNotNull(oldElement);
 
             // Use the helper method to get the node with the specified old element
             Node<T> nodeToAddAfter = GetNodeByElement(oldElement);
@@ -515,13 +488,13 @@ namespace A1_MaCrizzaRegacho
             Node<T> newNode = new Node<T>(element);
 
             // If the list is empty, set the Head and Tail to the new node
-            if (IsEmpty())
-            {
-                Head = newNode;
-                Tail = newNode;
-            }
-            else
-            {
+            //if (IsEmpty())
+            //{
+            //    Head = newNode;
+            //    Tail = newNode;
+            //}
+            //else
+            //{
                 // Start from the head
                 Node<T> currentNode = Head;
 
@@ -534,30 +507,33 @@ namespace A1_MaCrizzaRegacho
                 // Insert the new node at the correct position
                 if (currentNode == Head)
                 {
-                    // Insert at the beginning
-                    newNode.Next = Head;
-                    Head.Previous = newNode;
-                    Head = newNode;
+                    AddFirst(element);
+                    //// Insert at the beginning
+                    //newNode.Next = Head;
+                    //Head.Previous = newNode;
+                    //Head = newNode;
                 }
                 else if (currentNode == null)
                 {
-                    // Insert at the end
-                    Tail.Next = newNode;
-                    newNode.Previous = Tail;
-                    Tail = newNode;
+                    AddLast(element);
+                    //// Insert at the end
+                    //Tail.Next = newNode;
+                    //newNode.Previous = Tail;
+                    //Tail = newNode;
                 }
                 else
                 {
-                    // Insert in the middle
-                    newNode.Next = currentNode;
-                    newNode.Previous = currentNode.Previous;
-                    currentNode.Previous.Next = newNode;
-                    currentNode.Previous = newNode;
+                    AddNodeBefore(currentNode, new Node<T>(element));
+                    //// Insert in the middle (Add Before?)
+                    //newNode.Next = currentNode;
+                    //newNode.Previous = currentNode.Previous;
+                    //currentNode.Previous.Next = newNode;
+                    //currentNode.Previous = newNode;
                 }
-            }
-
+           // }
+// AddBefore or AddLast()/AddFirst() ... 
             // Increase the size of the list by 1
-            Size++;
+            //Size++;
         }
 
         /// <summary>
@@ -575,8 +551,8 @@ namespace A1_MaCrizzaRegacho
             {
                 swapped = false;
                 Node<T> currentNode = Head;
-
-                while (currentNode.Next != null)
+                //counter = 0;
+                while (currentNode.Next != null) // goes to size - counter
                 {
                     if (currentNode.Element.CompareTo(currentNode.Next.Element) > 0)
                     {
@@ -588,6 +564,7 @@ namespace A1_MaCrizzaRegacho
                     }
                     currentNode = currentNode.Next;
                 }
+                //counter++;
             } while (swapped);
         }
 
@@ -677,6 +654,9 @@ namespace A1_MaCrizzaRegacho
         /// <returns>The node with the specified element, or null if not found</returns>
         private Node<T> GetNodeByElement(T element)
         {
+            // Validate the element is not null
+            ValidateElementNotNull(element);
+
             // Start from the head
             Node<T> currentNode = Head;
 
@@ -690,8 +670,11 @@ namespace A1_MaCrizzaRegacho
                 currentNode = currentNode.Next;
             }
 
+            // Validate the node is not null
+            ValidateNodeNotNull(currentNode);
+
             // Return null if the element is not found
-            return null;
+            return null; // should never happen
         }
 
         /// <summary>
@@ -702,7 +685,6 @@ namespace A1_MaCrizzaRegacho
         /// <returns>The Node at the specified position</returns>
         private Node<T> GetNodeByPosition(int position)
         {
-
 
             // Validate the position
             ValidatePosition(position);
@@ -718,12 +700,6 @@ namespace A1_MaCrizzaRegacho
 
             return currentNode;
         }
-
-
-
-
-
-
 
 
 
