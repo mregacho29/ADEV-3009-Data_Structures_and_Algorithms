@@ -255,24 +255,24 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         /// <param name="position"></param>
         /// <returns></returns>
-        public T Remove(int position) // => RemoveNode(GetNodeByPostion(position));
-        {
+        public T Remove(int position) => RemoveNode(GetNodeByPosition(position));
+        //{
 
-            // Use the helper method to get the node at the specified position
-            Node<T> nodeToRemove = GetNodeByPosition(position);
+        //    // Use the helper method to get the node at the specified position
+        //    Node<T> nodeToRemove = GetNodeByPosition(position);
 
-            // Store the old element from the node
-            T oldElement = nodeToRemove.Element;
+        //    // Store the old element from the node
+        //    T oldElement = nodeToRemove.Element;
 
-            // Update the pointers of the adjacent nodes to bypass the node being removed
-            UpdatePointersForNodeRemoval(nodeToRemove);
+        //    // Update the pointers of the adjacent nodes to bypass the node being removed
+        //    UpdatePointersForNodeRemoval(nodeToRemove);
 
-            // Decrease the size of the list by 1
-            Size--;
+        //    // Decrease the size of the list by 1
+        //    Size--;
 
-            // Return the old element that was stored in the node
-            return oldElement;
-        }
+        //    // Return the old element that was stored in the node
+        //    return oldElement;
+        //}
 
         /// <summary>
         /// Finds the Node at the position specified and replaces the element on that node with a new element. Returns the old element’s value.
@@ -280,24 +280,24 @@ namespace A1_MaCrizzaRegacho
         /// <param name="element"></param>
         /// <param name="position"></param>
         /// <returns></returns>
-        public T Set(T element, int position) // => SetNode(GetNodeByPosition(position), element);
-        {
+        public T Set(T element, int position) => SetNode(GetNodeByPosition(position), element);
+        //{
 
-            // Validate the element is not null
-            ValidateElementNotNull(element);
+        //// Validate the element is not null
+        //    ValidateElementNotNull(element);
 
-            // Use the helper method to get the node at the specified position
-            Node<T> nodeToSet = GetNodeByPosition(position);
+        //// Use the helper method to get the node at the specified position
+        //Node<T> nodeToSet = GetNodeByPosition(position);
 
-            // Store the old element from the node
-            T oldElement = nodeToSet.Element;
+        //// Store the old element from the node
+        //T oldElement = nodeToSet.Element;
 
-            // Replace the element in the node with the new element
-            nodeToSet.Element = element;
+        //// Replace the element in the node with the new element
+        //nodeToSet.Element = element;
 
-            // Return the old element that was stored in the node
-            return oldElement;
-        }
+        //// Return the old element that was stored in the node
+        //return oldElement;
+        //}
 
         /// <summary>
         /// Finds the Node at the position specified and adds a new node after it.
@@ -420,7 +420,6 @@ namespace A1_MaCrizzaRegacho
         /// <returns></returns>
         public T Remove(T element)
         {
-
             // Validate the element is not null
             ValidateElementNotNull(element);
 
@@ -430,17 +429,8 @@ namespace A1_MaCrizzaRegacho
             // Validate the node is not null
             ValidateNodeNotNull(nodeToRemove);
 
-            // Store the old element from the node
-            T oldElement = nodeToRemove.Element;
-
-            // Update the Head if the node to remove is the first node
-            UpdatePointersForNodeRemoval(nodeToRemove);
-
-            // Decrease the size of the list by 1
-            Size--;
-
-            // Return the old element that was stored in the node
-            return oldElement;
+            // Remove the node and return the old element
+            return RemoveNode(nodeToRemove);
         }
 
         /// <summary>
@@ -464,14 +454,8 @@ namespace A1_MaCrizzaRegacho
             // Validate the node is not null
             ValidateNodeNotNull(nodeToSet);
 
-            // Store the old element from the node
-            T originalElement = nodeToSet.Element;
-
-            // Replace the element in the node with the new element
-            nodeToSet.Element = element;
-
-            // Return the original element that was stored in the node
-            return originalElement;
+            // Use the SetNode helper method to set the new element and return the old element
+            return SetNode(nodeToSet, element);
         }
 
         /// <summary>
@@ -531,7 +515,7 @@ namespace A1_MaCrizzaRegacho
                     //currentNode.Previous = newNode;
                 }
            // }
-// AddBefore or AddLast()/AddFirst() ... 
+            // AddBefore or AddLast()/AddFirst() ... 
             // Increase the size of the list by 1
             //Size++;
         }
@@ -541,37 +525,49 @@ namespace A1_MaCrizzaRegacho
         /// </summary>
         public void SortAscending()
         {
-            if (IsEmpty() || Head.Next == null)
-            {
-                return; // The list is already sorted
-            }
+            // Check if the list is empty or has only one element. If so, return immediately as the list is already sorted.
+            if (IsEmpty() || Head.Next == null) return;
 
+            // to track if any elements were swapped during a pass.
             bool swapped;
+            
+            //A counter to track the number of passes through the list.
+            int counter = 0; 
+
             do
             {
+                // Reset the swapped flag at the beginning of each pass.
                 swapped = false;
-                Node<T> currentNode = Head;
-                //counter = 0;
-                while (currentNode.Next != null) // goes to size - counter
-                {
-                    if (currentNode.Element.CompareTo(currentNode.Next.Element) > 0)
-                    {
-                        // Swap the elements
-                        T temp = currentNode.Element;
-                        currentNode.Element = currentNode.Next.Element;
-                        currentNode.Next.Element = temp;
-                        swapped = true;
-                    }
-                    currentNode = currentNode.Next;
-                }
-                //counter++;
-            } while (swapped);
-        }
 
+                // Start from the head
+                Node<T> current = Head;
+
+                // Loop through the list, comparing adjacent elements and swapping them if they are out of order.
+                // The range of the loop decreases with each pass, as the largest elements are bubbled to the end of the list.
+                for (int i = 0; i < Size - 1 - counter; i++)
+                {
+                    // Compare the current element with the next element.
+                    if (current.Element.CompareTo(current.Next.Element) > 0)
+                    {
+                        // Swap the elements if they are out of order.
+                        T temp = current.Element;
+                        current.Element = current.Next.Element;
+                        current.Next.Element = temp;
+                        swapped = true; // Set the swapped flag to true, indicating that a swap was made.
+                    }
+                    
+                    // Move to the next node in the list.
+                    current = current.Next; 
+                }
+                // Increment the counter after each pass.
+                counter++;
+            } while (swapped); // Continue looping until no elements are swapped in a pass.
+        }
 
 
         #region REFACTORED METHODS
 
+        #region VALIDATION OR CHECK PRIVATE METHODS
         /// <summary>
         /// REFACTORED METHOD
         /// Check if the element is null and thrown an ArgumentNullException
@@ -643,6 +639,7 @@ namespace A1_MaCrizzaRegacho
             }
         }
 
+        #endregion
 
 
 
@@ -670,7 +667,7 @@ namespace A1_MaCrizzaRegacho
                 currentNode = currentNode.Next;
             }
 
-            // Validate the node is not null
+            // Return null if the element is not found
             ValidateNodeNotNull(currentNode);
 
             // Return null if the element is not found
@@ -714,11 +711,10 @@ namespace A1_MaCrizzaRegacho
             if (Head != null)
             {
                 Head.Previous = null;
+                return;
             }
-            else
-            {
-                Tail = null;
-            }
+            Tail = null;
+            
         }
 
         /// <summary>
@@ -732,11 +728,10 @@ namespace A1_MaCrizzaRegacho
             if (Tail != null)
             {
                 Tail.Next = null;
+                return;
             }
-            else
-            {
-                Head = null;
-            }
+            Head = null;
+
         }
 
 
@@ -749,6 +744,7 @@ namespace A1_MaCrizzaRegacho
         /// <param name="nodeToRemove"></param>
         private void UpdatePointersForNodeRemoval(Node<T> nodeToRemove)
         {
+            // Update adjacent nodes' pointers
             if (nodeToRemove.Previous != null)
             {
                 nodeToRemove.Previous.Next = nodeToRemove.Next;
@@ -757,14 +753,10 @@ namespace A1_MaCrizzaRegacho
             {
                 nodeToRemove.Next.Previous = nodeToRemove.Previous;
             }
-            if (nodeToRemove == Head)
-            {
-                UpdateHead(nodeToRemove.Next);
-            }
-            if (nodeToRemove == Tail)
-            {
-                UpdateTail(nodeToRemove.Previous);
-            }
+
+            // Update boundary nodes using pattern matching
+            if (nodeToRemove == Head) UpdateHead(nodeToRemove.Next);
+            if (nodeToRemove == Tail) UpdateTail(nodeToRemove.Previous);
         }
 
 
@@ -782,17 +774,28 @@ namespace A1_MaCrizzaRegacho
         /// <param name="newNode"></param>
         private void AddNodeAfter(Node<T> nodeToAddAfter, Node<T> newNode)
         {
+            // Set the new node's next pointer to the next node of the node to add after
             newNode.Next = nodeToAddAfter.Next;
+
+            // Set the new node's previous pointer to the node to add after
             newNode.Previous = nodeToAddAfter;
+
+            // If the node to add after has a next node, update its previous pointer to the new node
             if (nodeToAddAfter.Next != null)
             {
                 nodeToAddAfter.Next.Previous = newNode;
             }
+
+            // Update the next pointer of the node to add after to the new node
             nodeToAddAfter.Next = newNode;
+
+            // If the node to add after is the tail, update the tail to the new node
             if (nodeToAddAfter == Tail)
             {
                 Tail = newNode;
             }
+
+            // Increment the size of the list
             Size++;
         }
 
@@ -804,19 +807,76 @@ namespace A1_MaCrizzaRegacho
         /// <param name="newNode"></param>
         private void AddNodeBefore(Node<T> nodeToAddBefore, Node<T> newNode)
         {
+            // Set the new node's next pointer to the node to add before
             newNode.Next = nodeToAddBefore;
+
+            // Set the new node's previous pointer to the previous node of the node to add before
             newNode.Previous = nodeToAddBefore.Previous;
+
+            // If the node to add before has a previous node, update its next pointer to the new node
             if (nodeToAddBefore.Previous != null)
             {
                 nodeToAddBefore.Previous.Next = newNode;
             }
+
+            // Update the previous pointer of the node to add before to the new node
             nodeToAddBefore.Previous = newNode;
+
+            // If the node to add before is the head, update the head to the new node
             if (nodeToAddBefore == Head)
             {
                 Head = newNode;
             }
+
+            // Increment the size of the list
             Size++;
         }
+
+
+
+
+        /// <summary>
+        /// Helper method to remove a node and return its element.
+        /// </summary>
+        /// <param name="nodeToRemove"></param>
+        /// <returns></returns>
+        private T RemoveNode(Node<T> nodeToRemove)
+        {
+            // Store the old element from the node
+            T oldElement = nodeToRemove.Element;
+
+            // Update the pointers of the adjacent nodes to bypass the node being removed
+            UpdatePointersForNodeRemoval(nodeToRemove);
+
+            // Decrease the size of the list by 1
+            Size--;
+
+            // Return the old element that was stored in the node
+            return oldElement;
+        }
+
+
+        /// <summary>
+        /// Helper method to set a node's element and return the old element.
+        /// </summary>
+        /// <param name="nodeToSet"></param>
+        /// <param name="element"></param>
+        /// <returns></returns>
+        private T SetNode(Node<T> nodeToSet, T element)
+        {
+            // Validate the element is not null
+            ValidateElementNotNull(element);
+
+            // Store the old element from the node
+            T oldElement = nodeToSet.Element;
+
+            // Replace the element in the node with the new element
+            nodeToSet.Element = element;
+
+            // Return the old element that was stored in the node
+            return oldElement;
+        }
+
 
         #endregion
 

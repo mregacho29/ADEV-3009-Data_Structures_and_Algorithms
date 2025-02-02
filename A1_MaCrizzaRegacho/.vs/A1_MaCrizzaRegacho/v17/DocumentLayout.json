@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\linkedlisttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\linkedlisttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a1_macrizzaregacho\\a1_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,17 +41,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LinkedListTest.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedListTest.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\LinkedListTest.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedListTest.cs",
               "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedListTest.cs",
-              "ViewState": "AgIAAHsBAAAAAAAAAAAawIgBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKcFAAAAAAAAAAAawLoFAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T09:26:03.843Z",
               "IsPinned": true,
@@ -83,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LinkedList.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\LinkedList.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
               "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedList.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAOQBAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T21:19:26.736Z",
               "EditorCaption": ""
@@ -104,18 +104,17 @@
               "RelativeToolTip": "A1_MaCrizzaRegacho\\Node.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:36:31.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T20:36:31.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Employee.cs",
               "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\Employee.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Employee.cs",
               "RelativeToolTip": "A1_MaCrizzaRegacho\\Employee.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T09:52:54.124Z",
               "EditorCaption": ""
