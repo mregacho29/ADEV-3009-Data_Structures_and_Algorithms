@@ -442,17 +442,17 @@ namespace A1_MaCrizzaRegacho
         /// <returns></returns>
         public T Set(T element, T oldElement)
         {
-            // Validate the element is not null
-            ValidateElementNotNull(element);
+            //// Validate the element is not null
+            //ValidateElementNotNull(element);
 
-            // Validate the oldElement is not null
-            ValidateOldElementNotNull(oldElement);
+            //// Validate the oldElement is not null
+            //ValidateOldElementNotNull(oldElement);
 
             // Use the helper method to get the node with the specified old element
             Node<T> nodeToSet = GetNodeByElement(oldElement);
 
-            // Validate the node is not null
-            ValidateNodeNotNull(nodeToSet);
+            //// Validate the node is not null
+            //ValidateNodeNotNull(nodeToSet);
 
             // Use the SetNode helper method to set the new element and return the old element
             return SetNode(nodeToSet, element);
