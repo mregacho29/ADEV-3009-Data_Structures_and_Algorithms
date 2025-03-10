@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a1_macrizzaregacho\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\a2_macrizzaregacho.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\a2_macrizzaregacho.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a1_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}|A1_MaCrizzaRegacho\\A1_MaCrizzaRegacho.csproj|solutionrelative:a1_macrizzaregacho\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone1-macrizzaregacho\\a2_macrizzaregacho\\mazetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\mazetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StackTests.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\StackTests.cs",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\StackTests.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\StackTests.cs",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\StackTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T01:01:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Node.cs",
+              "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\Node.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A1_MaCrizzaRegacho\\Node.cs",
+              "RelativeToolTip": "A1_MaCrizzaRegacho\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:25:37.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
+              "RelativeDocumentMoniker": "A1_MaCrizzaRegacho\\LinkedList.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A1_MaCrizzaRegacho\\LinkedList.cs",
+              "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:48:29.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Stack.cs",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\Stack.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Stack.cs",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\Stack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:47:45.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Node.cs",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\Node.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Node.cs",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:37:56.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "A2_MaCrizzaRegacho.csproj",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-01T21:58:35.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Point.cs",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\Point.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Point.cs",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\Point.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:58:50.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MazeTests.cs",
+              "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\MazeTests.cs",
+              "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\MazeTests.cs",
+              "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone1-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\MazeTests.cs",
+              "RelativeToolTip": "A2_MaCrizzaRegacho\\MazeTests.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:55:33.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
