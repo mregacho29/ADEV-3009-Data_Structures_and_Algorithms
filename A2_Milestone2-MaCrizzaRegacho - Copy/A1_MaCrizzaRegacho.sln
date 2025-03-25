@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1_MaCrizzaRegacho", "A1_MaCrizzaRegacho\A1_MaCrizzaRegacho.csproj", "{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2_MaCrizzaRegacho", "A2_MaCrizzaRegacho\A2_MaCrizzaRegacho.csproj", "{924BDFDA-8467-4D5A-B302-F9A0E0811E74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB95EA3-E8D8-4DD9-8BF8-B439615B99A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924BDFDA-8467-4D5A-B302-F9A0E0811E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924BDFDA-8467-4D5A-B302-F9A0E0811E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924BDFDA-8467-4D5A-B302-F9A0E0811E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924BDFDA-8467-4D5A-B302-F9A0E0811E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51961D97-CDC3-4988-91D2-D39CFAA5F9B7}
+	EndGlobalSection
+EndGlobal

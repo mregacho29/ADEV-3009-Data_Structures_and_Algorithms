@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone2-MaCrizzaRegacho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone2-macrizzaregacho\\a2_macrizzaregacho\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone2-macrizzaregacho\\a2_macrizzaregacho\\mazetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\mazetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone2-macrizzaregacho\\a2_macrizzaregacho\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|solutionrelative:a2_macrizzaregacho\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{924BDFDA-8467-4D5A-B302-F9A0E0811E74}|A2_MaCrizzaRegacho\\A2_MaCrizzaRegacho.csproj|c:\\users\\crizza lynne\\desktop\\data structures and algorithm\\a2_milestone2-macrizzaregacho\\a2_macrizzaregacho\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Maze.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone2-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Maze.cs",
               "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\Maze.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone2-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\Maze.cs",
               "RelativeToolTip": "A2_MaCrizzaRegacho\\Maze.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAQwCABAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T06:38:01.544Z",
               "IsPinned": true,
@@ -92,15 +92,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MazeTests.cs",
               "DocumentMoniker": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone2-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\MazeTests.cs",
               "RelativeDocumentMoniker": "A2_MaCrizzaRegacho\\MazeTests.cs",
               "ToolTip": "C:\\Users\\Crizza Lynne\\Desktop\\Data Structures and Algorithm\\A2_Milestone2-MaCrizzaRegacho\\A2_MaCrizzaRegacho\\MazeTests.cs",
               "RelativeToolTip": "A2_MaCrizzaRegacho\\MazeTests.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAApwGsBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAgwOUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T21:52:18.979Z"
+              "WhenOpened": "2025-03-09T21:52:18.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -124,7 +125,8 @@
               "RelativeToolTip": "A1_MaCrizzaRegacho\\LinkedList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T06:43:28.17Z"
+              "WhenOpened": "2025-03-08T06:43:28.17Z",
+              "EditorCaption": ""
             }
           ]
         }
