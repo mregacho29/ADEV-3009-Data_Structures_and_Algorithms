@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("A2_MaCrizzaRegacho")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfa329eea7bf21329eab62ad098f93e71eb4f80f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47b7474cf232ce6546afd3bab5ccf31bb813216e")]
 [assembly: System.Reflection.AssemblyProductAttribute("A2_MaCrizzaRegacho")]
 [assembly: System.Reflection.AssemblyTitleAttribute("A2_MaCrizzaRegacho")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

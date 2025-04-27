@@ -34,6 +34,7 @@ namespace A3_MaCrizzaRegacho
             Size++;
         }
 
+
         /// <summary>
         /// Returns the element at the top of the stack.
         /// </summary>
@@ -41,8 +42,14 @@ namespace A3_MaCrizzaRegacho
         public T Top()
         {
             ThrowIfEmpty();
+            if (Head == null)
+            {
+                throw new ApplicationException("Stack is empty.");
+            }
             return Head.Element;
         }
+
+
 
         /// <summary>
         /// Removes the element at the top of the stack.
@@ -79,5 +86,9 @@ namespace A3_MaCrizzaRegacho
             }
         }
     }
+
+
+
+
 }
 
